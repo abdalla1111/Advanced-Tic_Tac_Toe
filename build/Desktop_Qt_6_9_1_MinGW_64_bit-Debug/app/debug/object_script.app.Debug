@@ -1,0 +1,11 @@
+debug/main.o
+debug/mainwindow.o
+debug/Board.o
+debug/GameLogic.o
+debug/AIPlayer.o
+debug/DatabaseManager.o
+debug/MessageBox.o
+debug/moc_mainwindow.o
+debug/moc_GameLogic.o
+debug/moc_AIPlayer.o
+debug/moc_DatabaseManager.o

@@ -1,0 +1,16 @@
+release/main.o
+release/tst_aiplayer.o
+release/tst_databasemanager.o
+release/tst_testboard.o
+release/tst_gamelogic.o
+release/board.o
+release/aiplayer.o
+release/gamelogic.o
+release/databasemanager.o
+release/moc_tst_aiplayer.o
+release/moc_tst_databasemanager.o
+release/moc_tst_testboard.o
+release/moc_tst_gamelogic.o
+release/moc_aiplayer.o
+release/moc_gamelogic.o
+release/moc_databasemanager.o

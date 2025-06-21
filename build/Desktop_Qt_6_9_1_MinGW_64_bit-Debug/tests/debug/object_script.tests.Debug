@@ -1,0 +1,16 @@
+debug/main.o
+debug/tst_aiplayer.o
+debug/tst_databasemanager.o
+debug/tst_testboard.o
+debug/tst_gamelogic.o
+debug/board.o
+debug/aiplayer.o
+debug/gamelogic.o
+debug/databasemanager.o
+debug/moc_tst_aiplayer.o
+debug/moc_tst_databasemanager.o
+debug/moc_tst_testboard.o
+debug/moc_tst_gamelogic.o
+debug/moc_aiplayer.o
+debug/moc_gamelogic.o
+debug/moc_databasemanager.o
