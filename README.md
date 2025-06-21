@@ -31,10 +31,3 @@ An enhanced version of the classic Tic Tac Toe game featuring user authenticatio
 
 ---
 
-## ⚙️ Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Moha9056/Advanced_Tic_Tac_Toe_Game.git
-cd Advanced_Tic_Tac_Toe_Game
