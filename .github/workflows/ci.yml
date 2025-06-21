@@ -23,10 +23,14 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y qt6-base-dev qt6-tools-dev build-essential
 
+    - name: List directory contents
+      working-directory: ./project
+      run: ls -la
+
     - name: Build the project
       working-directory: ./project
       run: |
-        qmake6 TicTacToe_With_Tests.pro
+        qmake6 TicTacToe_With_Tests.pro  # Adjust .pro file name if needed
         make
 
   test:
@@ -85,6 +89,11 @@ jobs:
       with:
         tag_name: release-${{ github.sha }}
         name: Release ${{ github.sha }}
+        draft: false
+        prerelease: false
+        files: ./project/tictactoe-${{ github.sha }}.tar.gz
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         draft: false
         prerelease: false
         files: ./project/tictactoe-${{ github.sha }}.tar.gz
